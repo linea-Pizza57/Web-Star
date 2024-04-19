@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star - Web Player</title>
+    <link rel="icon" type="image/png" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../src/css/webstar-color.css" />
+    <link rel="stylesheet" type="text/css" href="../src/css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../src/lib/fontawesome/css/all.min.css" />
+  </head>
+  <body>
+    <span id="refresh">
+      <div>
+        <i class="fa-solid fa-sun fa-fade"></i>
+      </div>
+    </span>
+    <div id="root" class="web">
+      <!-------------AA------------->
+      <header id="viw1">
+        <!-------------A1------------->
+        <nav id="viw2">
+          <!--IMAGE-->
+          <img src="logo.webp" alt="logo-star" loding="lazy" class="img1" />
+          <!--HOME-->
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">
+              <div class="color">
+                <i class="fa-solid fa-house"></i>
+                <p>Home</p>
+              </div>
+            </a>
+          </li>
+        </nav>
+        <!-------------A2------------->
+        <nav id="viw3">
+          <ul id="nav">
+            <!--RADIO-->
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="../src/assets/views/radio.html">
+                <div class="color">
+                  <i class="fa-solid fa-tower-cell"></i>
+                  <p>Radio 24/7</p>
+                </div>
+              </a>
+            </li>
+            <!--PUDCAST-->
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="../src/assets/views/pudcast.html">
+                <div class="color">
+                  <i class="fa-solid fa-podcast"></i>
+                  <p>Pudcast</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <!--APPEARANCE-->
+          <ul class="ul-wall">
+            <button class="btu-wall" id="appA">
+              <div class="color" style="font-size: 15px">
+                <i class="fa-solid fa-images"></i>
+                <p>Appearance</p>
+              </div>
+            </button>
+            <!--APPEARANCE(NONE)-->
+            <section class="appnce" id="appearance">
+              <li class="wall-both1">
+                <!--TITLE-->
+                <h3>Themes</h3>
+                <!--BUTTON-->
+                <div class="wall-both2">
+                  <button class="wall-btu" id="bakA">Default</button>
+                  <button class="wall-btu" id="bakB">Glaxay-V1</button>
+                  <button class="wall-btu" id="bakC">Glaxay-V2</button>
+                </div>
+              </li>
+            </section>
+          </ul>
+        </nav>
+      </header>
+      <!-------------BB------------->
+      <main id="main1">
+        <!-------------B1------------->
+        <header id="main2">
+          <!--RIGHT,LEFT-->
+          <nav class="row">
+            <ul id="aclown">
+              <a id="a11" class="a1">
+                <i class="fa-solid fa-chevron-left"></i>
+              </a>
+              <a id="a2" class="a2a">
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+            </ul>
+            <!--SEARCH-->
+            <form class="fsh">
+              <input
+                type="text"
+                name="search"
+                id="search"
+                placeholder="Search..."
+                onfocus="this.value=''" />
+              <span id="btsh">
+                <i class="fa-solid fa-search"></i>
+              </span>
+            </form>
+            <!--SGIN-UP-LOGIN-->
+            <ul class="f1">
+              <!--S0-->
+              <li class="nav-fill">
+                <!--S1-->
+                <a
+                  class="nav-link"
+                  id="link1"
+                  href="../src/assets/views/Sgin-up.html">
+                  <p>Sgin up</p>
+                </a>
+                <!--S2-->
+                <a
+                  id="link2"
+                  class="nav-link"
+                  href="../src/assets/views/Login.html">
+                  <p>Login</p>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <!-------------B2------------->
+        <main id="main3">
+          <!--SECTION-1-->
+          <section id="page1">
+            <!--RAP-->
+            <div class="row">
+              <!--1-->
+              <h6 class="text">Rap</h6>
+            </div>
+            <!-------------B3------------->
+            <article class="cardsA">
+              <!--1-->
+              <div class="cards A">
+                <div class="card">
+                  <div class="card-head">
+                    <img
+                      src="../src/assets/image/logo/rap/rap1.webp"
+                      class="img2"
+                      alt="logo-music"
+                      loding="lazy" />
+                    <button id="R1" class="click">
+                      <i id="1q" class="fa-solid fa-play"></i>
+                    </button>
+                    <button id="R11" class="click" style="visibility: hidden">
+                      <i class="fa-solid fa-pause"></i>
+                    </button>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title" title="Coffee Break">
+                      Coffee Break
+                    </h5>
+                    <p class="card-text">
+                      Latin American mzic folk/popular/rap/pop....
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--2-->
+              <div class="cards B">
+                <div class="card">
+                  <div class="card-head">
+                    <img
+                      src="../src/assets/image/logo/rap/rap2.webp"
+                      class="img2"
+                      alt="logo-music"
+                      loding="lazy" />
+                    <button id="R2" class="click">
+                      <i id="2q" class="fa-solid fa-play"></i>
+                    </button>
+                    <button id="R22" class="click" style="visibility: hidden">
+                      <i class="fa-solid fa-pause"></i>
+                    </button>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title" title="Ask Again Later">
+                      Ask Again Later
+                    </h5>
+                    <p class="card-text">
+                      Latin American mzic folk/popular/rap/pop....
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--3-->
+              <div class="cards C">
+                <div class="card">
+                  <div class="card-head">
+                    <img
+                      src="../src/assets/image/logo/rap/rap3.webp"
+                      class="img2"
+                      alt="logo-music"
+                      loding="lazy" />
+                    <button id="R3" class="click">
+                      <i id="3q" class="fa-solid fa-play"></i>
+                    </button>
+                    <button id="R33" class="click" style="visibility: hidden">
+                      <i class="fa-solid fa-pause"></i>
+                    </button>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title" title="Unofficial Therapy">
+                      Unofficial The...
+                    </h5>
+                    <p class="card-text">
+                      Latin American mzic folk/popular/rap/pop....
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--4-->
+              <div class="cards D">
+                <div class="card">
+                  <div class="card-head">
+                    <img
+                      src="../src/assets/image/logo/rap/rap4.webp"
+                      class="img2"
+                      alt="logo-music"
+                      loding="lazy" />
+                    <button id="R4" class="click">
+                      <i id="4q" class="fa-solid fa-play"></i>
+                    </button>
+                    <button id="R44" class="click" style="visibility: hidden">
+                      <i class="fa-solid fa-pause"></i>
+                    </button>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title" title="In the Lab">In the Lab</h5>
+                    <p class="card-text">
+                      Latin American mzic folk/popular/rap/pop....
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--5-->
+              <div class="cards E">
+                <div class="card">
+                  <div class="card-head">
+                    <img
+                      src="../src/assets/image/logo/rap/rap5.webp"
+                      class="img2"
+                      alt="logo-music"
+                      loding="lazy" />
+                    <button id="R5" class="click">
+                      <i id="5q" class="fa-solid fa-play"></i>
+                    </button>
+                    <button id="R55" class="click" style="visibility: hidden">
+                      <i class="fa-solid fa-pause"></i>
+                    </button>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title" title="Diamonds">Diamonds</h5>
+                    <p class="card-text">
+                      Latin American mzic folk/popular/rap/pop....
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!--ROCK-->
+            <div class="row">
+              <!--1-->
+              <h6 class="text">Rock</h6>
+            </div>
+            <!-------------B4------------->
+            <article class="cardsA">
+              <!--1-->
+              <div class="cards A">
+                <div class="card">
+                  <div class="card-head">
+                    <img
+                      src="../src/assets/image/logo/rock/rock1.webp"
+                      class="img2"
+                      alt="logo-music"
+                      loding="lazy" />
+                    <button id="R01" class="click">
+                      <i id="01q" class="fa-solid fa-play"></i>
+                    </button>
+                    <button id="R011" class="click" style="visibility: hidden">
+                      <i class="fa-solid fa-pause"></i>
+                    </button>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title" title="Not Gonna Die">
+                      Not Gonna Die
+                    </h5>
+                    <p class="card-text">Rise - 2013</p>
+                  </div>
+                </div>
+              </div>
+              <!--2-->
+              <div class="cards B">
+                <div class="card">
+                  <div class="card-head">
+                    <img
+                      src="../src/assets/image/logo/rock/rock2.webp"
+                      class="img2"
+                      alt="logo-music"
+                      loding="lazy" />
+                    <button id="R02" class="click">
+                      <i id="02q" class="fa-solid fa-play"></i>
+                    </button>
+                    <button id="R022" class="click" style="visibility: hidden">
+                      <i class="fa-solid fa-pause"></i>
+                    </button>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title" title="Work Hard Play">
+                      Work Hard Play
+                    </h5>
+                    <p class="card-text">
+                      Latin American mzic folk/popularrap/pop/....
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--3-->
+              <div class="cards C">
+                <div class="card">
+                  <div class="card-head">
+                    <img
+                      src="../src/assets/image/logo/rock/rock3.webp"
+                      class="img2"
+                      alt="logo-music"
+                      loding="lazy" />
+                    <button id="R03" class="click">
+                      <i id="03q" class="fa-solid fa-play"></i>
+                    </button>
+                    <button id="R033" class="click" style="visibility: hidden">
+                      <i class="fa-solid fa-pause"></i>
+                    </button>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title" title="Iconic">Iconic</h5>
+                    <p class="card-text">Ledger - EP - 2018</p>
+                  </div>
+                </div>
+              </div>
+              <!--4-->
+              <div class="cards D">
+                <div class="card">
+                  <div class="card-head">
+                    <img
+                      src="../src/assets/image/logo/rap/rap1.webp"
+                      class="img2"
+                      alt="logo-music"
+                      loding="lazy" />
+                    <button id="R04" class="click">
+                      <i id="04q" class="fa-solid fa-play"></i>
+                    </button>
+                    <button id="R044" class="click" style="visibility: hidden">
+                      <i class="fa-solid fa-pause"></i>
+                    </button>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title" title="Only Bangers">
+                      Only Bangers
+                    </h5>
+                    <p class="card-text">
+                      Latin American mzic folk/popularrap/pop/....
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--5-->
+              <div class="cards E">
+                <div class="card">
+                  <div class="card-head">
+                    <img
+                      src="../src/assets/image/logo/rap/rap1.webp"
+                      class="img2"
+                      alt="logo-music"
+                      loding="lazy" />
+                    <button id="R05" class="click">
+                      <i id="05q" class="fa-solid fa-play"></i>
+                    </button>
+                    <button id="R055" class="click" style="visibility: hidden">
+                      <i class="fa-solid fa-pause"></i>
+                    </button>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title" title="Pump Up the Volume">
+                      Pump Up the...
+                    </h5>
+                    <p class="card-text">
+                      Latin American mzic folk/popularrap/pop/....
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </section>
+          <!--SECTION-2-->
+          <section id="page2">
+            <!--JASS-->
+            <div class="row">
+              <!--1-->
+              <h6 class="text">Jass</h6>
+            </div>
+            <!-------------B5------------->
+            <article class="cardsA">
+              <!--1-->
+              <div class="cards A">
+                <div class="card">
+                  <div class="card-head">
+                    <img
+                      src="../src/assets/image/logo/jass/jass1.webp"
+                      class="img2"
+                      alt="logo-music"
+                      loding="lazy" />
+                    <button class="click">
+                      <i class="fa-solid fa-play"></i>
+                    </button>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title" title="Tap In">Tap In</h5>
+                    <p class="card-text">
+                      Latin American mzi folk/popular/rap/pop/....
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--2-->
+              <div class="cards B">
+                <div class="card">
+                  <div class="card-head">
+                    <img
+                      src="../src/assets/image/logo/jass/jass5.webp"
+                      class="img2"
+                      alt="logo-music"
+                      loding="lazy" />
+                    <button class="click">
+                      <i class="fa-solid fa-play"></i>
+                    </button>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title" title="Kick It">Kick It</h5>
+                    <p class="card-text">
+                      Latin American mzi folk/popular/rap/pop/....
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--3-->
+              <div class="cards C">
+                <div class="card">
+                  <div class="card-head">
+                    <img
+                      src="../src/assets/image/logo/jass/jass4.webp"
+                      class="img2"
+                      alt="logo-music"
+                      loding="lazy" />
+                    <button class="click">
+                      <i class="fa-solid fa-play"></i>
+                    </button>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title" title="Freestyle">Freestyle</h5>
+                    <p class="card-text">
+                      Latin American mzi folk/popular/rap/pop/....
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--4-->
+              <div class="cards D">
+                <div class="card">
+                  <div class="card-head">
+                    <img
+                      src="../src/assets/image/logo/jass/jass3.webp"
+                      class="img2"
+                      alt="logo-music"
+                      loding="lazy" />
+                    <button class="click">
+                      <i class="fa-solid fa-play"></i>
+                    </button>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title" title="Can’t Escape">
+                      Can’t Escape
+                    </h5>
+                    <p class="card-text">
+                      Latin American mzi folk/popular/rap/pop/....
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--5-->
+              <div class="cards E">
+                <div class="card">
+                  <div class="card-head">
+                    <img
+                      src="../src/assets/image/logo/jass/jass2.webp"
+                      class="img2"
+                      alt="logo-music"
+                      loding="lazy" />
+                    <button class="click">
+                      <i class="fa-solid fa-play"></i>
+                    </button>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title" title="Off the Top">Off the Top</h5>
+                    <p class="card-text">
+                      Latin American mzi folk/popular/rap/pop/....
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!--PHONK-->
+            <div class="row">
+              <!--1-->
+              <h6 class="text">Phonk</h6>
+            </div>
+            <!-------------B6------------->
+            <article class="cardsA">
+              <!--1-->
+              <div class="cards A">
+                <div class="card">
+                  <div class="card-head">
+                    <img
+                      src="../src/assets/image/logo/phonk/phonk1.jpg"
+                      class="img2"
+                      alt="logo-music"
+                      loding="lazy" />
+                    <button class="click">
+                      <i class="fa-solid fa-play"></i>
+                    </button>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title" title="Downtempo">Downtempo</h5>
+                    <p class="card-text">
+                      atin American mzic folk/popular/rap/pop/....
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--2-->
+              <div class="cards B">
+                <div class="card">
+                  <div class="card-head">
+                    <img
+                      src="../src/assets/image/logo/phonk/phonk2.jpg"
+                      class="img2"
+                      alt="logo-music"
+                      loding="lazy" />
+                    <button class="click">
+                      <i class="fa-solid fa-play"></i>
+                    </button>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title" title="Chill Drives">
+                      Chill Drives
+                    </h5>
+                    <p class="card-text">
+                      atin American mzic folk/popular/rap/pop/....
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--3-->
+              <div class="cards C">
+                <div class="card">
+                  <div class="card-head">
+                    <img
+                      src="../src/assets/image/logo/phonk/phonk3.jpg"
+                      class="img2"
+                      alt="logo-music"
+                      loding="lazy" />
+                    <button class="click">
+                      <i class="fa-solid fa-play"></i>
+                    </button>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title" title="DeStress Songs">
+                      DeStress Songs
+                    </h5>
+                    <p class="card-text">
+                      atin American mzic folk/popular/rap/pop/....
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--4-->
+              <div class="cards D">
+                <div class="card">
+                  <div class="card-head">
+                    <img
+                      src="../src/assets/image/logo/phonk/phonk4.jpg"
+                      class="img2"
+                      alt="logo-music"
+                      loding="lazy" />
+                    <button class="click">
+                      <i class="fa-solid fa-play"></i>
+                    </button>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title" title="Easy Listening">
+                      Easy Listening
+                    </h5>
+                    <p class="card-text">
+                      atin American mzic folk/popular/rap/pop/....
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--5-->
+              <div class="cards E">
+                <div class="card">
+                  <div class="card-head">
+                    <img
+                      src="../src/assets/image/logo/phonk/phonk6.jpg"
+                      class="img2"
+                      alt="logo-music"
+                      loding="lazy" />
+                    <button class="click">
+                      <i class="fa-solid fa-play"></i>
+                    </button>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title" title="Cafe Evening">
+                      Cafe Evening
+                    </h5>
+                    <p class="card-text">
+                      atin American mzic folk/popular/rap/pop/....
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </section>
+        </main>
+      </main>
+      <!-------------CC------------->
+      <footer id="player1">
+        <!------C1------>
+        <nav id="player2">
+          <ul id="player3">
+            <div id="timerstart" class="time mus-ply">
+              <p>0:00</p>
+            </div>
+            <input type="range" id="movtm" class="progress mus-ply" />
+            <div id="timerend" class="time mus-ply">
+              <p>0:00</p>
+            </div>
+          </ul>
+          <ul id="player4">
+            <!--RANDOM-->
+            <button id="rnd" class="mus-ply random">
+              <i class="fa-solid fa-shuffle"></i>
+            </button>
+            <!--BACK-->
+            <button id="bck" class="mus-ply back">
+              <i class="fa-solid fa-backward-step"></i>
+            </button>
+            <!--PALY-->
+            <button id="ply" class="mus-ply play">
+              <i class="fa-solid fa-play"></i>
+            </button>
+            <!--STOP-->
+            <button id="stp" class="play" style="display: none">
+              <i class="fa-solid fa-pause"></i>
+            </button>
+            <!--NEXT-->
+            <button id="nxt" class="mus-ply back">
+              <i class="fa-solid fa-forward-step next"></i>
+            </button>
+            <!--LOOP-->
+            <button id="lop" class="mus-ply loop">
+              <i class="fa-solid fa-repeat"></i>
+            </button>
+          </ul>
+        </nav>
+      </footer>
+      <!-------------DD------------->
+    </div>
+    <!--SCRIPT-->
+    <script type="module" src="../src/js/main.js" defer></script>
+    <script type="text/javascript" src="../src/lib/js/jquery.js"></script>
+  </body>
+</html>

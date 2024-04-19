@@ -1,0 +1,40 @@
+/***IMPORT-STYLE***/
+@import url(style.css);
+
+/***IMPORT-COLOR***/
+@import url(webstar-color.css);
+
+.img2 {
+  width: 230px;
+  height: 160px;
+}
+
+.cardsA {
+  grid-template-areas: "a c b d e";
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.click {
+  height: 53px;
+  width: 53px;
+}
+
+.card {
+  width: fit-content;
+  height: inherit;
+  border-radius: 8px 8px 15px 15px;
+}
+
+.card-body {
+  padding: 16px 0px 0px 0px;
+}
+
+.card:hover .card-head {
+  transform: scale(0.97);
+}
+
+#player4 {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}

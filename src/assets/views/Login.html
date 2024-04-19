@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Star</title>
+    <link rel="icon" type="image/png" href="../../../public/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../../css/login-sginup.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/webstar-color.css" />
+    <link rel="stylesheet" type="text/css" href="../../lib/fontawesome/css/all.min.css" />
+  </head>
+  <body>
+    <!--------FORM-1--------->
+    <div class="log-sg" id="form2">
+      <!--H-->
+      <h2 class="h2">Login</h2>
+      <!--------SINGUP--------->
+      <div class="pass-frm">
+        <form>
+          <!--------TEXT--------->
+          <div class="title-qus">
+            <!--1-->
+            <p>Need an account?</p>
+            <!--2-->
+            <a class="ans-qus" onclick="sginup()">
+              <p>Sign up</p>
+            </a>
+          </div>
+          <!--------EMAIL--------->
+          <div class="mb-3">
+            <label for="Email">Email</label>
+            <input
+              type="email"
+              class="form-control ans"
+              placeholder="Email Address" />
+          </div>
+          <!--------PASS--------->
+          <div class="mb-3">
+            <label for="Password">Password</label>
+            <input
+              type="password"
+              class="form-control ans"
+              placeholder="Password" />
+          </div>
+          <!--------SUBMIT--------->
+          <button type="submit" value="submit" class="submit">
+            <p>Login</p>
+          </button>
+        </form>
+      </div>
+    </div>
+    <!--------FORM-2--------->
+    <div class="log-sg" id="form1" style="display: none">
+      <!--H-->
+      <h2 class="h2">Create New Account</h2>
+      <!--------LOGIN--------->
+      <div class="pass-frm">
+        <form>
+          <!--------TEXT--------->
+          <div class="title-qus">
+            <!--1-->
+            <p>Already have an account?</p>
+            <!--2-->
+            <a class="ans-qus" onclick="login()">
+              <p>Log in</p>
+            </a>
+          </div>
+          <!--------EMAIL--------->
+          <div class="mb-3">
+            <label for="Email">Email</label>
+            <input
+              type="email"
+              class="form-control ans"
+              aria-describedby="emailHelp"
+              placeholder="Alex@ai.com" />
+          </div>
+          <!--------PASS--------->
+          <div class="mb-3">
+            <!--1-->
+            <label for="Password">Password</label>
+            <input
+              type="password"
+              class="form-control ans"
+              placeholder="12345678" />
+            <span class="form-text">Must be 8-20 characters long</span>
+            <!--2-->
+            <label for="Password">Password</label>
+            <input
+              type="password"
+              class="form-control ans"
+              placeholder="12345678" />
+          </div>
+          <!--------SUBMIT--------->
+          <button type="submit" value="submit" class="submit">Register</button>
+        </form>
+      </div>
+    </div>
+    <!--SCRIPT-->
+    <script type="text/javascript" src="../../js/login.js"></script>
+  </body>
+</html>

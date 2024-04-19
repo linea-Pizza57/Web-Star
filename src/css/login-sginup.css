@@ -1,0 +1,106 @@
+/****ALL****/
+* {
+  margin: 0%;
+  padding: 0%;
+  user-select: none;
+}
+
+/****BODY****/
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../assets/image/background/star1.webp);
+  background-size: cover;
+  animation: myleft 30s linear infinite alternate;
+  font-family: system-ui, sans-serif;
+}
+/***ANIMATION***/
+@keyframes myleft {
+  0% {
+    background-position: left bottom;
+    background-size: 100%;
+  }
+  100% {
+    background-position: left bottom;
+    background-size: 150%;
+  }
+}
+
+/***FORM-LOGIN-SING-UP***/
+.log-sg {
+  display: flex;
+  font-variant-caps: all-small-caps;
+  padding: 20px;
+  border-radius: 10px;
+  color: var(--white-100);
+  background: var(--black-1000);
+  box-shadow: 0px 0px 20px 8px var(--black-100);
+  align-items: baseline;
+}
+
+/***TITLE***/
+.h2 {
+  padding: 0.2em 1em 0px 0px;
+  font-size: 2em;
+  color: var(--green-800);
+}
+
+/***FORM***/
+.pass-frm {
+  width: 100%;
+}
+
+/***QUSETION-FORM***/
+.title-qus {
+  display: flex;
+  gap: 2.3%;
+  justify-content: flex-end;
+}
+/***ANSER-QUSETION***/
+.ans-qus {
+  text-decoration: none;
+  color: var(--white-400);
+}
+/***ANSER-QUSETION-HOVER***/
+.ans-qus:hover {
+  color: var(--green-600);
+}
+
+/***INPUT***/
+.form-control {
+  background-color: var(--white-900);
+  padding: 0.7rem 0.75rem;
+  font-size: 14px;
+  border: 0px;
+  border-radius: 5px;
+  outline: none;
+}
+
+/***FORM-PART***/
+.mb-3 {
+  display: flex;
+  flex-direction: column;
+  color: var(--green-600);
+  padding: 3px;
+  gap: 5px;
+  margin-bottom: 1rem;
+}
+
+/***BUTTON-FORM***/
+.submit {
+  padding: 12px;
+  color: var(--white-100);
+  background-color: var(--green-200);
+  border-radius: 5px;
+  font-weight: 700;
+  width: 98%;
+  margin-left: 2px;
+}
+
+/***RULE-PASSWORD***/
+.form-text {
+  color: var(--white-600);
+  font-size: 13px;
+}

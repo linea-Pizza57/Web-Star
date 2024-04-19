@@ -1,0 +1,14 @@
+/***IMPORT-STYLE***/
+@import url(style.css);
+
+/***IMPORT-COLOR***/
+@import url(webstar-color.css);
+
+#main3 {
+  height: 87%;
+}
+
+#player4 {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
